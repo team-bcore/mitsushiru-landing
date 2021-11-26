@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('/images/Hero/top-image.svg')",
+        'hero-pattern': "url('/images/Hero/top-image2.svg')",
       },
       backgroundColor: {
         'primary': '#8CD278',
