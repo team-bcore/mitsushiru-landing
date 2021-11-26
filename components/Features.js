@@ -27,7 +27,7 @@ export default function Features() {
 
                         <div className="">
                             <p class="mb-4 text-left text-gray-700">
-                                施設利用者は、ORコード読み取りやURLから混雑情報へアクセスします。<br></br>
+                                施設利用者は、QRコード読み取りやURLから混雑情報へアクセスします。<br></br>
                                 スマートフォンや端末のブラウザでリアルタイムの混雑度を簡単に知ることができます。
                             </p>
                         </div>
