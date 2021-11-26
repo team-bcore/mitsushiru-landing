@@ -46,15 +46,15 @@ const Item = ({ title, children }) => {
           <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
             <div>
               <p class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-                Brand new
-              </p>
+                密集度モニターシステム　密 ミツシルの導入に関する
+             </p>
             </div>
             <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
               <span class="relative inline-block">
                 <svg
                   viewBox="0 0 52 24"
                   fill="currentColor"
-                  class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+                  class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-green-600 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
                 >
                   <defs>
                     <pattern
@@ -78,26 +78,30 @@ const Item = ({ title, children }) => {
               よくあるご質問
             </h2>
             <p class="text-base text-gray-700 md:text-lg ">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae.
+            ミツシルについて、お客様からよくいただくご質問とご回答をまとめております。
             </p>
           </div>
           <div class="space-y-4">
-            <Item title="The quick, brown fox jumps over a lazy dog?">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae.
+            <Item title="出入口が複数ある場合でも、導入できますか？">
+            可能です。室内の人数をシンプルに表示できます。オプションで各扉（カメラ）ごとの入退室履歴をCSV形式でダウンロードも可能です。
             </Item>
-            <Item title="The first mate and his Skipper too will do?">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae.
+            <Item title="利用開始までどのくらいの日数がかかりますか?">
+            お申し込みから、約2週間〜1か月でご利用開始できます。
             </Item>
-            <Item title="Is the Space Pope reptilian!?">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae.
+            <Item title="カメラの設置を自分でできるか不安です。">
+            事前にお客様と、設置イメージ等をヒアリング・共有し、設置マニュアル・機器一式を送付いたします。<br></br>
+            <br></br>
+            ①カメラを指定位置に設置<br></br>
+            ②ミツシルBOX(カメラ以外の機材一式をコンパクトにまとめたボックス）を目立たない場所に設置し、AC電源接続<br></br>
+            ③カメラとミツシルBOXをLANケーブルで接続<br></br>
+            ④QRコードで専用サイトにアクセスして動作確認<br></br><br></br>
+            以上4ステップで完了です。
             </Item>
-            <Item title="How much money you got on you?">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae.
+            <Item title="設置前に必要な資料はどのようなものでしょうか？">
+            対象となる設置場所の図面（簡易図面でもOK)があれば、スムーズにご回答可能です。
+            </Item>
+            <Item title="通信はどのような形ですか？">
+            通信料込のプランが標準となります。お客様のLANを利用する場合も対応は可能です。
             </Item>
           </div>
         </div>
