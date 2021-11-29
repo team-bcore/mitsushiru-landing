@@ -1,6 +1,12 @@
-export default function Contac() {
+
+export default function Contact() {
     return (
-        <form name="contact" method="POST" data-netlify="true" action="thank" data-netlify-honeypot="bot-field">
+        <form
+        name="contact-form"
+        method="POST"
+        action=""
+      >
+            <input type="hidden" name="form-name" value="contact" />
             <div id="contact-us">
                 <p className="text-3xl font-bold text-center md:text-4xl leading-none tracking-tight text-gray-900 sm:text-4xl">
                     🟨 CONTACT
