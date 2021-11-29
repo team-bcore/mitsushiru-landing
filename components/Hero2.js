@@ -29,13 +29,12 @@ export default function Hero2() {
                 新型コロナウイルスの感染が拡大する中で、<br></br>「密を避けて利用をしたい」
                 「密な施設には行かない」<br></br>
                 という施設利用者の意識が高まっています。<br></br>
-                密集度モニターシステム「密 ミツシル」は施設を利用する側と管理する側、
-                両方の課題を解決するツールです。
+                密集度モニターシステム「密 ミツシル」は<br></br>施設を利用する側と管理する側、両方の課題を解決します。
               </p>
             </div>
             <div>
               <a
-                href="https://www.colorbit.jp/contact"
+                href="#contact-us"
                 className="bg-yellow-300 inline-flex items-center justify-center h-12 px-6 font-semibold tracking-wide text-teal-900 transition duration-200 rounded shadow-md hover:text-deep-purple-900 bg-teal-accent-400 hover:bg-deep-purple-accent-100 focus:shadow-outline focus:outline-none"
               >
                 ミツシルを始める
