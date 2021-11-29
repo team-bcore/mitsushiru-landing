@@ -40,12 +40,14 @@ export default function Contact() {
             action="thank"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
+            onSubmit={handleSubmit}
         >
-            <p hidden>
-                <label>
-                    Don’t fill this out: <input name="bot-field" />
-                </label>
-            </p>
+             <p hidden>
+                  <label>
+                    Don’t fill this out:{" "}
+                    <input name="bot-field" onChange={handleChange} />
+                  </label>
+                </p>
             <div id="contact-us">
                 <p className="text-3xl font-bold text-center md:text-4xl leading-none tracking-tight text-gray-900 sm:text-4xl">
                     🟨 CONTACT
@@ -58,15 +60,15 @@ export default function Contact() {
                         <div className="grid grid-cols-1 gap-6 md:grid md:grid-cols-6">
                             <div className="pt-8 block md:col-start-1 col-span-6">
                                 <span className="text-gray-700">会社名</span>
-                                <input type="text" class="mt-1 block w-full" placeholder="" />
+                                <input type="text" class="mt-1 block w-full" placeholder=""  onChange={handleChange} />
                             </div>
                             <div className="pt-8 block md:col-start-1 col-span-6">
                                 <span className="text-gray-700">お名前</span>
-                                <input type="text" class="mt-1 block w-full" placeholder="" />
+                                <input type="text" class="mt-1 block w-full" placeholder=""  onChange={handleChange} />
                             </div>
                             <div className="pt-8 block md:col-start-1 col-span-6">
                                 <span className="text-gray-700">Email アドレス</span>
-                                <input type="email" class="mt-1 block w-full" placeholder="john@example.com" />
+                                <input type="email" class="mt-1 block w-full" placeholder="john@example.com"  onChange={handleChange} />
                             </div>
                             <div className="pt-8 block md:col-start-1 col-span-6">
                                 <span className="text-gray-700">お問い合わせ内容</span>
@@ -84,7 +86,7 @@ export default function Contact() {
                                 <div class="mt-2">
                                     <div>
                                         <div className="inline-flex items-center">
-                                            <input type="checkbox" unchecked />
+                                            <input type="checkbox" unchecked  onChange={handleChange} />
                                             <span class="ml-2">
                                                 弊社の
                                                 <a
