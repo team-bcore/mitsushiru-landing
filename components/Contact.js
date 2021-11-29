@@ -1,11 +1,43 @@
+import { useRouter } from 'next/router'
+import React from 'react'
+
+function encode(data) {
+    return Object.keys(data)
+        .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+        .join('&')
+}
+
 
 export default function Contact() {
+
+    const router = useRouter()
+    const [state, setState] = React.useState({})
+
+    const handleChange = (e) => {
+        setState({ ...state, [e.target.name]: e.target.value })
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        const form = e.target
+        fetch('/', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: encode({
+                'form-name': form.getAttribute('name'),
+                ...state,
+            }),
+        })
+            .then(() => router.push(form.getAttribute('action')))
+            .catch((error) => alert(error))
+    }
+
     return (
         <form
             className="container"
             method="POST"
             name="contact-form"
-            action="#contact-us"
+            action="thank"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
         >
