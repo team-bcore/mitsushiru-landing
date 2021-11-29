@@ -60,19 +60,19 @@ export default function Contact() {
 
                     <label className="pt-4 block md:col-start-3 col-span-4">
                         <span className="text-gray-700">お名前</span>
-                        <input type="text" className="mt-1 block w-full" placeholder="密知　太郎" />
+                        <input type="text" className="mt-1 block w-full" placeholder="密知　太郎" onChange={handleChange}/>
                     </label>
                     <label className="pt-4 block md:col-start-3 col-span-4">
                         <span className="text-gray-700">会社名</span>
-                        <input type="text" className="mt-1 block w-full" placeholder="〇〇株式会社" />
+                        <input type="text" className="mt-1 block w-full" placeholder="〇〇株式会社" onChange={handleChange}/>
                     </label>
                     <label className="pt-4 block md:col-start-3 col-span-4">
                         <span className="text-gray-700">メールアドレス</span>
-                        <input type="email" className="mt-1 block w-full" placeholder="john@example.com" />
+                        <input type="email" className="mt-1 block w-full" placeholder="john@example.com" onChange={handleChange}/>
                     </label>
                     <label className="pt-4 block md:col-start-3 col-span-4">
                         <span className="text-gray-700">お問い合わせ内容</span>
-                        <select className="block w-full mt-1">
+                        <select className="block w-full mt-1"　onChange={handleChange}>
                             <option>機材購入プランを申し込みたい</option>
                             <option>機材レンタルプランを申し込みたい</option>
                             <option>その他のお問い合わせ</option>
@@ -80,7 +80,7 @@ export default function Contact() {
                     </label>
                     <label className="pt-4 block md:col-start-3 col-span-4">
                         <span className="text-gray-700">ご相談内容・その他</span>
-                        <textarea className="mt-1 block w-full" rows="6"></textarea>
+                        <textarea className="mt-1 block w-full" rows="6"　onChange={handleChange}/>
                     </label>
                     <div className="pt-4 mx-auto block md:col-start-3 col-span-4">
                         <div className="mt-2">
