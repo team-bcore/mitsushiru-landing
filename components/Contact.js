@@ -61,19 +61,19 @@ export default function Contact() {
 
                     <label className="pt-4 block md:col-start-3 col-span-4">
                         <span className="text-gray-700">お名前</span>
-                        <input type="text" className="mt-1 block w-full" name="密知　太郎" placeholder="密知　太郎" onChange={handleChange}/>
+                        <input type="text" className="mt-1 block w-full" name="お名前" placeholder="密知　太郎" onChange={handleChange} />
                     </label>
                     <label className="pt-4 block md:col-start-3 col-span-4">
                         <span className="text-gray-700">会社名</span>
-                        <input type="text" className="mt-1 block w-full" name="company" placeholder="〇〇株式会社" onChange={handleChange}/>
+                        <input type="text" className="mt-1 block w-full" name="会社名" placeholder="〇〇株式会社" onChange={handleChange} />
                     </label>
                     <label className="pt-4 block md:col-start-3 col-span-4">
                         <span className="text-gray-700">メールアドレス</span>
-                        <input type="email" className="mt-1 block w-full" name="email" placeholder="john@example.com" onChange={handleChange}/>
+                        <input type="email" className="mt-1 block w-full" name="email" placeholder="john@example.com" onChange={handleChange} />
                     </label>
                     <label className="pt-4 block md:col-start-3 col-span-4">
                         <span className="text-gray-700">お問い合わせ内容</span>
-                        <select className="block w-full mt-1"　onChange={handleChange}>
+                        <select className="block w-full mt-1" name="お問い合わせ内容" onChange={handleChange}>
                             <option>機材購入プランを申し込みたい</option>
                             <option>機材レンタルプランを申し込みたい</option>
                             <option>その他のお問い合わせ</option>
@@ -81,7 +81,7 @@ export default function Contact() {
                     </label>
                     <label className="pt-4 block md:col-start-3 col-span-4">
                         <span className="text-gray-700">ご相談内容・その他</span>
-                        <textarea className="mt-1 block w-full" rows="6"　onChange={handleChange}/>
+                        <textarea className="mt-1 block w-full" rows="6" name="ご相談内容" onChange={handleChange} />
                     </label>
                     <div className="pt-4 mx-auto block md:col-start-3 col-span-4">
                         <div className="mt-2">
@@ -89,11 +89,11 @@ export default function Contact() {
                                 <label className="inline-flex items-center">
                                     <input type="checkbox" unchecked />
                                     <span className="ml-2">弊社の
-                                    <a
-                                                    href="https://www.colorbit.jp/privacy-policy"
-                                                    className="text-blue-600 underline">
-                                                    プライバシーポリシー
-                                               </a>に同意します</span>
+                                        <a
+                                            href="https://www.colorbit.jp/privacy-policy"
+                                            className="text-blue-600 underline">
+                                            プライバシーポリシー
+                                        </a>に同意します</span>
                                 </label>
                             </div>
                         </div>
