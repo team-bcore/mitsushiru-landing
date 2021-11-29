@@ -3,12 +3,12 @@ import Image from "next/image";
 export default function Merit() {
     return (
         <div className="bg-primary px-2 pt-20 pb-5 sm:px-8">
-            <div className="">
-                <p className="text-2xl text-center font-bold md:text-3xl ">
+             <div className="">
+                <p className="text-3xl text-center font-bold text-gray-900 md:text-4xl ">
                     🟨 ミツシルを導入するメリット
-                </p>
-            </div>          
-            <div className="pt-16 grid grid-cols-1 md:grid-cols-2 gap-8 lg:grid-cols-6">
+                </p> 
+                </div>       
+            <div className="pt-6 grid grid-cols-1 md:grid-cols-2 gap-8 lg:grid-cols-6">
                
                 <div className="lg:col-start-2 lg:col-end-4">
                     <Image
@@ -19,7 +19,7 @@ export default function Merit() {
                     />
                     
                     <div className="shadow-md rounded-md bg-white md:h-60">
-                    <p className="p-8 lg:p-6 xl:p-10">
+                    <p className="p-8 text-gray-700 lg:p-6 xl:p-10">
                         訪問前に「どうせ混んでいるから
                         行かない」・施設を訪問後に 「混んでいたから帰ろう」という利用者
                         心理により、機会損失が日々発生しています。<br></br>
@@ -36,7 +36,7 @@ export default function Merit() {
                         /> 
                     
                     <div className="shadow-md rounded-md bg-white md:h-60">
-                    <p className="p-8 lg:p-6 xl:p-10">
+                    <p className="p-8 text-gray-700 lg:p-6 xl:p-10">
                         混雑状況のお問い合わせのたび
                         に、スタッフが密を都度確認する
                         負担は、本来業務を圧迫していま

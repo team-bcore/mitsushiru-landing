@@ -4,11 +4,11 @@ export default function Features() {
     return (
         <div className="pt-20">
             <div className="">
-                <p className="text-2xl text-center font-bold md:text-3xl ">
+                <p className="text-3xl text-center font-bold md:text-4xl  leading-none tracking-tight text-gray-900 sm:text-4xl">
                     🟨 ご利用までの流れ
                 </p>
             </div>
-            <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+            <div className=" container px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                 <div className="grid gap-6 row-gap-10 lg:grid-cols-2">
                     <div className="lg:py-6 lg:pr-16">
                         <div className="flex">
@@ -16,7 +16,7 @@ export default function Features() {
                                 <div>
                                     <div className="flex items-center justify-center w-10 h-10 border rounded-full">
                                         <svg
-                                            className="w-4 text-gray-600"
+                                            className="w-4 text-gray-600 animate-bounce"
                                             stroke="currentColor"
                                             strokeWidth="2"
                                             strokeLinecap="round"
@@ -44,7 +44,7 @@ export default function Features() {
                             <div className="pt-1 pb-8">
                                 <p className="mb-2 text-lg font-bold">Step 1　お申し込み</p>
                                 <p className="text-gray-700">
-                                設置を希望される場所の画像を送付していただきます。
+                                まずはビーコアまでご利用をお申し込みください。ヒアリングをさせていただきます。その際、設置を希望される場所付近の画像を送付していただきます。
                                 </p>
                             </div>
                         </div>
@@ -53,7 +53,7 @@ export default function Features() {
                                 <div>
                                     <div className="flex items-center justify-center w-10 h-10 border rounded-full">
                                         <svg
-                                            className="w-4 text-gray-600"
+                                            className="w-4 text-gray-600 animate-bounce"
                                             stroke="currentColor"
                                             strokeWidth="2"
                                             strokeLinecap="round"
@@ -90,7 +90,7 @@ export default function Features() {
                                 <div>
                                     <div className="flex items-center justify-center w-10 h-10 border rounded-full">
                                         <svg
-                                            className="w-4 text-gray-600"
+                                            className="w-4 text-gray-600 animate-bounce"
                                             stroke="currentColor"
                                             strokeWidth="2"
                                             strokeLinecap="round"
@@ -118,9 +118,7 @@ export default function Features() {
                             <div className="pt-1 pb-8">
                                 <p className="mb-2 text-lg font-bold">Step 3　カメラの設置</p>
                                 <p className="text-gray-700">
-                                カメラの初期設定をし、機器一
-                                式を送付します。カメラはお客
-                                様ご自身で取り付けていただきます。
+                                カメラの初期設定をし、機器一式を送付します。カメラはお客様ご自身で取り付けていただきます。
                                 </p>
                             </div>
                         </div>
@@ -129,7 +127,7 @@ export default function Features() {
                                 <div>
                                     <div className="flex items-center justify-center w-10 h-10 border rounded-full">
                                         <svg
-                                            className="w-4 text-gray-600"
+                                            className="w-4 text-gray-600 animate-bounce"
                                             stroke="currentColor"
                                             strokeWidth="2"
                                             strokeLinecap="round"
@@ -155,9 +153,9 @@ export default function Features() {
                                 <div className="w-px h-full bg-gray-300" />
                             </div>
                             <div className="pt-1 pb-8">
-                                <p className="mb-2 text-lg font-bold">Step 4</p>
+                                <p className="mb-2 text-lg font-bold">Step 4　設置状況の確認</p>
                                 <p className="text-gray-700">
-                                カメラの設置状況を確認します。お客様へQRコードやURLをお知らせしましょう。
+                                ビーコアがカメラの設置状況を確認・調整します。サービスを利用していただけるよう、お客様へQRコードやURLをお知らせしましょう。
                                 </p>
                             </div>
                         </div>
@@ -191,11 +189,14 @@ export default function Features() {
                         </div>
                     </div>
                     <div className="relative">
-                        <img
-                            className="inset-0 object-cover object-bottom w-full rounded shadow-lg h-96 lg:absolute lg:h-full"
-                            src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                            alt=""
-                        />
+                        <div className="">
+                    <Image
+                            src="/images/Steps/steps_image.svg" // Route of the image file
+                            height={700} // Desired size with correct aspect ratio
+                            width={630} // Desired size with correct aspect ratio
+                            alt="ご案内開始までスムーズにご案内いたします"
+                        /> 
+                        </div>
                     </div>
                 </div>
             </div>
