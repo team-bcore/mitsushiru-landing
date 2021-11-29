@@ -74,6 +74,7 @@ export default function Contact() {
                     <label className="pt-4 block md:col-start-3 col-span-4">
                         <span className="text-gray-700">お問い合わせ内容</span>
                         <select className="block w-full mt-1" name="お問い合わせ内容" onChange={handleChange}>
+                            <option>選択してください</option>
                             <option>機材購入プランを申し込みたい</option>
                             <option>機材レンタルプランを申し込みたい</option>
                             <option>その他のお問い合わせ</option>
