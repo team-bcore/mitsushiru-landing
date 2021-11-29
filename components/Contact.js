@@ -61,15 +61,15 @@ export default function Contact() {
 
                     <label className="pt-4 block md:col-start-3 col-span-4">
                         <span className="text-gray-700">お名前</span>
-                        <input type="text" className="mt-1 block w-full" placeholder="密知　太郎" onChange={handleChange}/>
+                        <input type="text" className="mt-1 block w-full" name="密知　太郎" placeholder="密知　太郎" onChange={handleChange}/>
                     </label>
                     <label className="pt-4 block md:col-start-3 col-span-4">
                         <span className="text-gray-700">会社名</span>
-                        <input type="text" className="mt-1 block w-full" placeholder="〇〇株式会社" onChange={handleChange}/>
+                        <input type="text" className="mt-1 block w-full" name="company" placeholder="〇〇株式会社" onChange={handleChange}/>
                     </label>
                     <label className="pt-4 block md:col-start-3 col-span-4">
                         <span className="text-gray-700">メールアドレス</span>
-                        <input type="email" className="mt-1 block w-full" placeholder="john@example.com" onChange={handleChange}/>
+                        <input type="email" className="mt-1 block w-full" name="email" placeholder="john@example.com" onChange={handleChange}/>
                     </label>
                     <label className="pt-4 block md:col-start-3 col-span-4">
                         <span className="text-gray-700">お問い合わせ内容</span>
