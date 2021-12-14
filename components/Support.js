@@ -2,7 +2,6 @@ import Image from "next/image";
 
 export default function Features() {
   return (
-
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
@@ -30,11 +29,11 @@ export default function Features() {
               />
             </svg>
             <span class="relative">安心のサポート体制</span>
-          </span>{' '}
-
+          </span>{" "}
         </h2>
         <p class="text-base text-gray-700 md:text-lg">
-          導入してからも、ビーコアがしっかりサポートしますので、<br></br>安心してサービスをご利用いただけます。
+          導入してからも、ビーコアがしっかりサポートしますので、<br></br>
+          安心してサービスをご利用いただけます。
         </p>
       </div>
       <div className="grid gap-8 row-gap-5 md:grid-cols-2">
@@ -56,7 +55,8 @@ export default function Features() {
                   カメラの管理は、私たちビーコアにお任せください
                 </h6>
                 <p className="mb-2 text-sm text-gray-900">
-                  カメラは、パナソニックの提供する遠隔監視プラットフォームで管理されているので、迅速にトラブル対応します。<br></br>ほとんど全ての維持管理はビーコアが遠隔で行います。
+                  カメラは、パナソニックの提供する遠隔監視プラットフォームで管理されているので、迅速にトラブル対応します。
+                  <br></br>ほとんど全ての維持管理はビーコアが遠隔で行います。
                 </p>
               </div>
             </div>
