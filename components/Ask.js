@@ -5,14 +5,8 @@ export default function Ask() {
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="grid gap-10 lg:grid-cols-2">
         <div className="lg:pr-10">
-          <a
-            href="/"
-            aria-label="Go Home"
-            title="Logo"
-            className="inline-block mb-5"
-          >
-            <div className="flex items-center justify-center w-12 h-12 rounded-full bg-primary"></div>
-          </a>
+          <div className="flex items-center justify-center w-12 h-12 rounded-full bg-primary"></div>
+
           <h5 className="mb-4 text-4xl font-extrabold leading-none">
             密 ミツシルをもっと知りたい方へ
             <br className="hidden md:block" />{" "}

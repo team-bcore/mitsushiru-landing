@@ -300,10 +300,10 @@ const data = {
 };
 
 export default function GraphLine() {
-  return(
+  return (
     <div>
-    <p></p>
-    <Line data={data} width={200} height={100} />
-  </div>
+      <p></p>
+      <Line data={data} width={200} height={100} />
+    </div>
   );
 }

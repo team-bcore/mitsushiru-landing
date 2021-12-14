@@ -12,12 +12,12 @@ export default function Data() {
       <div className="grid max-w-screen-lg gap-8 row-gap-5 md:row-gap-8 sm:mx-auto lg:grid-cols-2">
         <div className="transition duration-300 transform bg-white rounded md:text-center">
           <div className="relative">
-          <Image
-            src="/images/Usecase1/data-yamashita-weekly.png" // Route of the image file
-            height={548} // Desired size with correct aspect ratio
-            width={877} // Desired size with correct aspect ratio
-            alt="一週間の集計グラフ"
-          />
+            <Image
+              src="/images/Usecase1/data-yamashita-weekly.png" // Route of the image file
+              height={548} // Desired size with correct aspect ratio
+              width={877} // Desired size with correct aspect ratio
+              alt="一週間の集計グラフ"
+            />
             <div className="absolute inset-0 bg-gray-700 bg-opacity-25" />
           </div>
           <div className="px-6 py-8 border border-t-0 rounded-b sm:px-8">
@@ -28,12 +28,12 @@ export default function Data() {
         </div>
         <div className="transition duration-300 transform bg-white rounded shadow-sm md:text-center">
           <div className="relative">
-          <Image
-            src="/images/Usecase1/data-yamashita-daily.png" // Route of the image file
-            height={548} // Desired size with correct aspect ratio
-            width={877} // Desired size with correct aspect ratio
-            alt="一日の集計グラフ"
-          />
+            <Image
+              src="/images/Usecase1/data-yamashita-daily.png" // Route of the image file
+              height={548} // Desired size with correct aspect ratio
+              width={877} // Desired size with correct aspect ratio
+              alt="一日の集計グラフ"
+            />
             <div className="absolute inset-0 bg-gray-700 bg-opacity-25" />
           </div>
           <div className="px-6 py-8 border border-t-0 rounded-b sm:px-8">

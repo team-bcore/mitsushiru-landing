@@ -113,7 +113,7 @@ export default function Contact() {
             <div className="mt-2">
               <div>
                 <label className="inline-flex items-center">
-                  <input type="checkbox" unchecked />
+                  <input type="checkbox" unchecked="true" />
                   <span className="ml-2">
                     弊社の
                     <a

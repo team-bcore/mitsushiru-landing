@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
-import Link from 'next/link';
-
-
+import Link from "next/link";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,35 +11,32 @@ function Navbar() {
           <div className="flex items-center h-20 w-full">
             <div className="flex items-center  mx-20  justify-between w-full">
               <div className="flex justify-center items-center flex-shrink-0 ">
-              <Link
-                    href="/"
-                  >
-                <a><h1 className=" font-bold text-xl cursor-pointer">
-                  密<span className="text-lime-500">ミツシル</span>
-                </h1>
-                </a>
+                <Link href="/">
+                  <a>
+                    <h1 className=" font-bold text-xl cursor-pointer">
+                      密<span className="text-lime-500">ミツシル</span>
+                    </h1>
+                  </a>
                 </Link>
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
-                {/* <Link
+                  {/* <Link
                     href="/"
                   >
                     <a className="cursor-pointer hover:bg-lime-500 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
                   </Link> */}
-                  <Link
-                    href="/usecase_1"
-                  >
-                    <a className="cursor-pointer hover:bg-lime-500 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium">事例紹介</a>
+                  <Link href="/usecase_1">
+                    <a className="cursor-pointer hover:bg-lime-500 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                      事例紹介
+                    </a>
                   </Link>
 
-                  <Link
-                    href="/#contact-us"
-
-                  >
-                    <a className="cursor-pointer bg-lime-500 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-black shadow-lg shadow-lime-500/50">Contact</a>
+                  <Link href="/#contact-us">
+                    <a className="cursor-pointer bg-lime-500 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-black shadow-lg shadow-lime-500/50">
+                      Contact
+                    </a>
                   </Link>
-
                 </div>
               </div>
             </div>
@@ -107,16 +102,16 @@ function Navbar() {
                 ref={ref}
                 className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3"
               >
-                <Link
-                  href="/usecase_1"
-                >
-                  <a className="cursor-pointer hover:bg-lime-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">事例紹介</a>
+                <Link href="/usecase_1">
+                  <a className="cursor-pointer hover:bg-lime-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                    事例紹介
+                  </a>
                 </Link>
 
-                <Link
-                  href="/#contact-us"
-                >
-                  <a className="cursor-pointer hover:bg-lime-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+                <Link href="/#contact-us">
+                  <a className="cursor-pointer hover:bg-lime-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                    Contact
+                  </a>
                 </Link>
               </div>
             </div>
@@ -128,4 +123,3 @@ function Navbar() {
 }
 
 export default Navbar;
-

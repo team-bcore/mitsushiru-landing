@@ -28,7 +28,7 @@ export default function Features() {
             />
 
             <div className="">
-              <p class="mb-4 text-left text-gray-700">
+              <p className="mb-4 text-left text-gray-700">
                 施設利用者は、QRコード読み取りやURLから混雑情報へアクセスします。
                 <br></br>
                 スマートフォンや端末のブラウザでリアルタイムの混雑度を簡単に知ることができます。
@@ -37,7 +37,7 @@ export default function Features() {
           </div>
         </div>
         <div className="md:col-start-5 col-span-3">
-          <div class="p-4 text-center">
+          <div className="p-4 text-center">
             <Image
               src="/images/Features/NO2.svg" // Route of the image file
               height={80} // Desired size with correct aspect ratio
@@ -55,7 +55,7 @@ export default function Features() {
             />
 
             <div className="">
-              <p class="mb-4 text-left text-gray-700">
+              <p className="mb-4 text-left text-gray-700">
                 月額1万円からサービスを利用できるので、コストを抑えながら、お客様に安心して施設を利用していただけます。
                 <br></br>
                 カメラは、購入かレンタルをお選びいただけます。

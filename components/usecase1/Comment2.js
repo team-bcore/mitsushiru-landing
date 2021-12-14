@@ -15,7 +15,7 @@ export default function Comment2() {
             スタッフの皆様
           </h5>
           <hr className="mb-5 border-gray-300" />
-          <ul class="list-disc">
+          <ul className="list-disc px-2">
             <li className="text-gray-700">
               受付スタッフの目から見た印象ですが、
               <a className="underline decoration-lime-500 decoration-2">
