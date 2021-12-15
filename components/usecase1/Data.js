@@ -43,7 +43,7 @@ export default function Data() {
           </div>
         </div>
       </div>
-      <p className="text-gray-700 mx-auto pt-12 grid lg:grid-cols-1 lg:px-24 xl:grid-cols-1 xl:px-48">
+      <p className="leading-relaxed text-gray-700 mx-auto pt-12 grid lg:grid-cols-1 lg:px-24 xl:grid-cols-1 xl:px-48">
         クリニックの管理者権限で、各カメラが取得したデータをグラフで閲覧することができます。山下診療所では歯科待合室、医科待合室それぞれの時系列データを病院運営に活用しています。
         なお、サーバーに蓄積されたデータはCSVファイル形式で
         ダウンロードすることも可能です。CSVデータを利用すれば、さらに詳細な人数推移や患者様の来院傾向などのデータ分析にご活用いただけます。
