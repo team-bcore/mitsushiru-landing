@@ -13,7 +13,7 @@ export default function Cameras() {
             <div className="h-1 ml-auto duration-300 origin-left transform bg-deep-purple-accent-400 scale-x-30 group-hover:scale-x-100" />
           </h2>
         </div>
-        <p className="w-full text-gray-700 lg:max-w-md">
+        <p className="w-full text-gray-700 lg:max-w-md lg:font-semibold">
           大塚病院の医科と歯科の待合室にAIカメラを設置して混雑度の可視化を行いました。
         </p>
       </div>
