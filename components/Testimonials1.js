@@ -18,7 +18,7 @@ export default function Testimonials() {
             </a>
           </div>
           <p className="text-base text-gray-700 md:text-lg">
-            今回のミツシルの導⼊により、待合室のリアルな混雑度を患者様がスマホで知ることができるので、密を避けて安⼼して受診できるようになると期待しています。
+          ミツシルの導⼊により、患者様は待合室のリアルな混雑度をスマホで知ることが出来るので、密を避けてより安⼼して受診できるようになることを期待しています。
           </p>
         </div>
         <div className="mb-10 sm:text-center">
