@@ -25,7 +25,7 @@ export default function Testimonials() {
           <a className="inline-block mb-1">
             <Image
               className="object-cover w-10 h-10 rounded-full shadow-sm"
-              src="/images/Usecase1/doctor_yamashita.png" // Route of the image file
+              src="/images/Usecase1/output1.jpg" // Route of the image file
               height={100} // Desired size with correct aspect ratio
               width={100} // Desired size with correct aspect ratio
               alt="山下 巌 先生"
