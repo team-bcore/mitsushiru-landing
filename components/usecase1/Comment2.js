@@ -14,23 +14,23 @@ export default function Comment2() {
           <h5 className="text-gray-800 mb-3 text-3xl font-extrabold leading-none sm:text-4xl">
             スタッフの皆様
           </h5>
-          <hr className="mb-5 border-gray-300" />
+          <hr className="mb-4 border-gray-300" />
           <ul className="list-disc px-2">
             <li className="text-gray-700">
-              受付スタッフの目から見た印象ですが、
+            受付スタッフの目から見た印象ですが、
               <a className="underline decoration-lime-500 decoration-2">
-                以前より待合室の混雑度は一定レベル以下に なってきた気がします。
+                以前より待合室の混雑度は一定レベル以下になってきた気がします。
               </a>
               段々とミツシルをご利用する患者様が増えてきたのかもしれません。
-              患者様用混雑度ページへご案内するQRコードは、院内のポスターと
-              受付に名刺サイズでお知らせしています。
             </li>
-            <li className="text-gray-700">
-              人気の先生を希望されている患者様にとっては、来院のタイミングをご本人で調整できるので、
+            <br></br>
+            <li className="text-gray-700">  
+            人気の先生を希望の患者様にとって、           
               <a className="underline decoration-lime-500 decoration-2">
-                リアルタイムで空いている時間帯が分かるのは有益な情報のようです。
+              リアルタイムで空いている時間帯が分かるのは、来院のタイミングをご本人で調整でき好評のようです。
               </a>
             </li>
+            <br></br>
             <li className="text-gray-700">
               カメラは小さく目立たないので、監視されているというイメージを患者様に与えないのがいいですね。
               <a className="underline decoration-lime-500 decoration-2">
@@ -38,12 +38,13 @@ export default function Comment2() {
               </a>
               というのも好印象です。
             </li>
+            <br></br>
             <li className="text-gray-700">
-              混雑度のデータを長期的に蓄積して、予約枠の平準化にも活用していきたいです。
+            混雑度データを長期に蓄積し、予約枠の平準化に活用していきたいです。
             </li>
           </ul>
         </div>
-        <div className="drop-shadow-lg">
+        <div className="pt-8 drop-shadow-lg">
           <Image
             className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
             src="/images/Usecase1/staffs.jpeg" // Route of the image file
