@@ -36,10 +36,9 @@ export default function Merit() {
 
           <div className="shadow-md rounded-md bg-white md:h-60">
             <p className="p-8 text-gray-700 lg:p-6 xl:p-10">
-              混雑状況のお問い合わせのたび に、スタッフが密を都度確認する
-              負担は、本来業務を圧迫していま す。<br></br>
+              混雑状況のお問い合わせのたびに、スタッフが密を都度確認する負担は、本来業務を圧迫しています。<br></br>
               <br></br>
-              ミツシルなら、スタッフの代わり に24時間見守り、利用者に混雑
+              ミツシルなら、スタッフの代わりに24時間見守り、利用者に混雑
               情報をお届けします。
             </p>
           </div>

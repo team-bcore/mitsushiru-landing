@@ -6,9 +6,9 @@ export default function Comment1() {
       <div className="flex flex-col max-w-screen-lg overflow-hidden bg-white border rounded shadow-sm lg:flex-row sm:mx-auto">
         <div className="relative lg:w-1/2">
           <Image
-            src="/images/Usecase1/doctor_yamashita.png" // Route of the image file
-            height={711} // Desired size with correct aspect ratio
-            width={585} // Desired size with correct aspect ratio
+            src="/images/Usecase1/output1.jpg" // Route of the image file
+            height={2532} // Desired size with correct aspect ratio
+            width={2026} // Desired size with correct aspect ratio
             alt="山下 巌 先生"
           />
           <svg
@@ -31,7 +31,7 @@ export default function Comment1() {
           <h5 className="text-gray-800 mb-3 text-3xl font-extrabold leading-none sm:text-4xl">
             山下 巌 先生
           </h5>
-          <p className="mb-5 text-gray-700">
+          <p className="mb-5 text-gray-700 leading-relaxed">
             当院では受付を挟んで医科と⻭科で待合スペースを分離しています。
             また、待合室にいる時間を最⼩限にするために予約システムを導入し、外出してもスマホで診察の進み具合が⾒られる仕組みとなっています。
             それでも、待ち時間が長くなってしまうことがあり、密対策という面からも何か良い方法がないか悩んでいました。
