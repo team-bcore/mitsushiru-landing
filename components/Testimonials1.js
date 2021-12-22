@@ -24,10 +24,10 @@ export default function Testimonials() {
         <div className="mb-10 sm:text-center">
           <a className="inline-block mb-1">
             <Image
-              className="object-cover w-10 h-10 rounded-full shadow-sm"
-              src="/images/Usecase1/output1.jpg" // Route of the image file
-              height={100} // Desired size with correct aspect ratio
-              width={100} // Desired size with correct aspect ratio
+              className="object-cover w-15 h-10 rounded-full shadow-sm"
+              src="/images/Usecase1/Yamashita_Iwao_portrait.jpeg" // Route of the image file
+              height={120} // Desired size with correct aspect ratio
+              width={120} // Desired size with correct aspect ratio
               alt="山下 巌 先生"
             />
           </a>
