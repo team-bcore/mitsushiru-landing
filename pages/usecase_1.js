@@ -12,7 +12,7 @@ import Footer from "components/Footer";
 
 export default function Usecase1() {
   return (
-    <div className="">
+    <div className="selection:bg-lime-300">
       <Navbar />
       <Intro />
       <Cameras />

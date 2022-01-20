@@ -17,7 +17,7 @@ import { NextSeo } from "next-seo";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="selection:bg-lime-300">
       <NextSeo
         title="密集度モニターシステム・密 ミツシル"
         description="IoTカメラで店舗や施設のリアルタイムの密集度を見える化するサービス・ミツシル。スマートフォンやインターネットから混雑情報へ簡単アクセス"

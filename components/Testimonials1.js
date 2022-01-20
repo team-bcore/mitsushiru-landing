@@ -22,6 +22,7 @@ export default function Testimonials() {
           </p>
         </div>
         <div className="mb-10 sm:text-center">
+        <Link href="/usecase_1">
           <a className="inline-block mb-1">
             <Image
               className="object-cover w-15 h-10 rounded-full shadow-sm"
@@ -31,6 +32,7 @@ export default function Testimonials() {
               alt="山下 巌 先生"
             />
           </a>
+          </Link> 
           <div>
             <a className="font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700">
               山下 巌 先生
