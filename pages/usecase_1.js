@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Navbar from "components/Navbar";
+import Top from "components/usecase1/Top";
 import Intro from "components/usecase1/Intro";
 import Cameras from "components/usecase1/Cameras";
 import Data from "components/usecase1/Data";
@@ -14,6 +15,7 @@ export default function Usecase1() {
   return (
     <div className="selection:bg-lime-300">
       <Navbar />
+      <Top />
       <Intro />
       <Cameras />
       <Data />
