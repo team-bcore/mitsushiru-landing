@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps }) {
   
   return (
     <>
-      <div className="container">      
+      <div className="container">
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-BBD59JYM23"
         strategy="afterInteractive"
@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
           gtag('config', 'G-BBD59JYM23');
         `}
       </Script>
-      </div>
+    </div>
       <Component {...pageProps} />
     </>
   );
