@@ -10,6 +10,7 @@ import Ask from "components/Ask";
 import Contact from "components/Contact";
 import Footer from "components/Footer";
 import { NextSeo } from 'next-seo';
+import Head from "next/head";
 
 export default function Usecase2() {
   return (
