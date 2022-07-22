@@ -1,28 +1,16 @@
-import "tailwindcss/tailwind.css";
-import Script from 'next/script'
+// pages/_app.js
+import { GoogleAnalytics, usePageViews } from "nextjs-google-analytics";
+import 'tailwindcss/tailwind.css';
 
-function MyApp({ Component, pageProps }) {
-  
+const App = ({ Component, pageProps }) => {
+  usePageViews();
+
   return (
     <>
-      <div className="container">
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-BBD59JYM23"
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-BBD59JYM23');
-        `}
-      </Script>
-    </div>
+      <GoogleAnalytics />
       <Component {...pageProps} />
     </>
   );
-}
+};
 
-export default MyApp;
+export default App;
