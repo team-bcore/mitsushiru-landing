@@ -48,17 +48,22 @@ export default function Usecase1() {
           cardType: "summary_large_image",
         }}
       />
-      <Navbar />
-      <Top />
-      <Intro />
-      <Cameras />
-      <Data />
-      <Ui />
-      <Comment1 />
-      <Comment2 />
-      <Ask />
-      <Contact />
-      <Footer />
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <div className="">
+        <Navbar />
+        <Top />
+        <Intro />
+        <Cameras />
+        <Data />
+        <Ui />
+        <Comment1 />
+        <Comment2 />
+        <Ask />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -54,7 +54,6 @@ export default function Home() {
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <div className="">
         <Navbar />
         <Hero2 />

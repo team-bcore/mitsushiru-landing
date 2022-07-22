@@ -12,9 +12,9 @@ import Footer from "components/Footer";
 import { NextSeo } from 'next-seo';
 
 export default function Usecase2() {
-    return (
-      <div className="selection:bg-lime-300">
-        <NextSeo
+  return (
+    <div className="selection:bg-lime-300">
+      <NextSeo
         title="ミツシル導入事例2"
         description=""
         canonical="https://www.mitsushiru.tech/usecase1/"
@@ -47,6 +47,10 @@ export default function Usecase2() {
           cardType: "summary_large_image",
         }}
       />
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <div className="">
         <Navbar />
         <Top />
         <Intro />
@@ -58,6 +62,6 @@ export default function Usecase2() {
         <Contact />
         <Footer />
       </div>
-    );
-  }
-  
+    </div>
+  );
+}
