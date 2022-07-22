@@ -10,7 +10,7 @@
     "@headlessui/react": "^1.4.2",
     "chart.js": "^3.6.2",
     "next": "latest",
-    "next-seo": "^4.28.1",
+    "next-seo": "^4.29.0",
     "nextjs-google-analytics": "^1.2.1",
     "react": "17.0.2",
     "react-chartjs-2": "^4.0.0",

@@ -9,10 +9,44 @@ import CommentEW from "components/usecase2/CommentEW";
 import Ask from "components/Ask";
 import Contact from "components/Contact";
 import Footer from "components/Footer";
+import { NextSeo } from 'next-seo';
 
 export default function Usecase2() {
     return (
       <div className="selection:bg-lime-300">
+        <NextSeo
+        title="ミツシル導入事例2"
+        description=""
+        canonical="https://www.mitsushiru.tech/usecase1/"
+        openGraph={{
+          url: "https://www.mitsushiru.tech/usecase1/",
+          title: "ミツシル導入事例2",
+          description:
+            "パナソニックエレクトリックワークス社　様の導入事例を紹介しています。",
+          images: [
+            {
+              url: "https://www.mitsushiru.tech/images/Seo/card-image.png",
+              width: 800,
+              height: 600,
+              alt: "密集度モニターシステム・密 ミツシル",
+              type: "image/png",
+            },
+            {
+              url: "https://www.mitsushiru.tech/images/Seo/card-image2.png",
+              width: 900,
+              height: 800,
+              alt: "密集度モニターシステム・密 ミツシル",
+              type: "large_image/png",
+            },
+          ],
+          site_name: "密集度モニターシステム・密 ミツシル",
+        }}
+        twitter={{
+          handle: "colorbit_bcore",
+          site: "https://twitter.com/colorbit_bcore",
+          cardType: "summary_large_image",
+        }}
+      />
         <Navbar />
         <Top />
         <Intro />
