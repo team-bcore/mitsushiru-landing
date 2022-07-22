@@ -18,10 +18,10 @@ export default function Usecase1() {
     <div className="selection:bg-lime-300">
       <NextSeo
         title="ミツシル導入事例1"
-        description=""
-        canonical="https://www.mitsushiru.tech/usecase1/"
+        description="医療法人社団 法山会 山下診療所 大塚 様の導入事例を紹介しています。"
+        canonical="https://www.mitsushiru.tech/usecase_1/"
         openGraph={{
-          url: "https://www.mitsushiru.tech/usecase1/",
+          url: "https://www.mitsushiru.tech/usecase_1/",
           title: "ミツシル導入事例1",
           description:
             "医療法人社団 法山会 山下診療所 大塚 様の導入事例を紹介しています。",
