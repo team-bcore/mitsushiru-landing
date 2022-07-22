@@ -9,6 +9,7 @@ import CommentEW from "components/usecase2/CommentEW";
 import Ask from "components/Ask";
 import Contact from "components/Contact";
 import Footer from "components/Footer";
+import { NextSeo } from 'next-seo';
 
 export default function Usecase2() {
     return (

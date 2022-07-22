@@ -10,6 +10,7 @@ import Comment2 from "components/usecase1/Comment2";
 import Ask from "components/Ask";
 import Contact from "components/Contact";
 import Footer from "components/Footer";
+import { NextSeo } from 'next-seo';
 
 export default function Usecase1() {
   return (
