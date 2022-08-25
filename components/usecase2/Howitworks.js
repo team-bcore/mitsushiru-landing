@@ -19,7 +19,7 @@ export default function Howitworks() {
                 <div className="relative w-full transition-shadow duration-300 hover:shadow-xl">
                     <Image
                         src="/images/Usecase2/how-it-works.png" // Route of the image file
-                        height={866} // Desired size with correct aspect ratio
+                        height={565} // Desired size with correct aspect ratio
                         width={1382} // Desired size with correct aspect ratio
                         alt="ミツシルの仕組み"
                     />
