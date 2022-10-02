@@ -36,6 +36,11 @@ function Navbar() {
                       事例紹介2
                     </a>
                   </Link>
+                  <Link href="/usecase_3">
+                    <a className="cursor-pointer hover:bg-lime-500 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                      事例紹介3
+                    </a>
+                  </Link>
 
                   <Link href="/#contact-us">
                     <a className="cursor-pointer bg-lime-500 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-black shadow-lg shadow-lime-500/50">
@@ -115,6 +120,11 @@ function Navbar() {
                 <Link href="/usecase_2">
                   <a className="cursor-pointer hover:bg-lime-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                     事例紹介2
+                  </a>
+                </Link>
+                <Link href="/usecase_3">
+                  <a className="cursor-pointer hover:bg-lime-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                    事例紹介3
                   </a>
                 </Link>
 
