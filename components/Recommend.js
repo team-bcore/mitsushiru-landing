@@ -4,10 +4,10 @@ export default function Recommend() {
   return (
     <div className="bg-primary pt-16 pb-16">
       <div className="px-2">
-        <p className="text-3xl text-center font-bold text-gray-900 md:text-4xl">
-          🟨 このような場所におすすめします
+        <p className="font-noto text-3xl text-center font-bold text-gray-900 md:text-4xl">
+          このような場所におすすめします
         </p>
-        <p className="text-center pt-12 text-gray-700 md:mx-24">
+        <p className="font-ud text-center pt-12 text-gray-800 md:mx-24">
           病院、大浴場やスポーツジム、飲食店など、不特定多数が集まる、入口と出口が明確な場所が適しています。
         </p>
       </div>

@@ -28,10 +28,10 @@ export default function Features() {
                 height="24"
               />
             </svg>
-            <span className="relative">安心のサポート体制</span>
+            <span className="font-noto relative">安心のサポート体制</span>
           </span>{" "}
         </h2>
-        <p className="text-base text-gray-700 md:text-lg">
+        <p className="font-ud text-base text-gray-700 md:text-lg">
           導入してからも、ビーコアがしっかりサポートしますので、<br></br>
           安心してサービスをご利用いただけます。
         </p>
@@ -51,12 +51,12 @@ export default function Features() {
             </div>
             <div className="flex flex-col justify-between flex-grow">
               <div>
-                <h6 className="mb-2 font-semibold leading-5">
-                  カメラの管理は、私たちビーコアにお任せください
+                <h6 className="font-noto mb-2 text-xl leading-5">
+                  カメラの管理はお任せください
                 </h6>
-                <p className="mb-2 text-sm text-gray-900">
+                <p className="font-ud mb-2 text-base text-gray-900">
                   カメラは、パナソニックの提供する遠隔監視プラットフォームで管理されているので、迅速にトラブル対応します。
-                  <br></br>ほとんど全ての維持管理はビーコアが遠隔で行います。
+                  ほとんど全ての維持管理はビーコアが遠隔で行います。
                 </p>
               </div>
             </div>
@@ -78,10 +78,10 @@ export default function Features() {
             </div>
             <div className="flex flex-col justify-between flex-grow">
               <div>
-                <h6 className="mb-2 font-semibold leading-5">
+                <h6 className="font-noto mb-2 text-xl leading-5">
                   Pマークを取得しています
                 </h6>
-                <p className="mb-2 text-sm text-gray-900">
+                <p className="font-ud mb-2 text-base text-gray-900">
                   プライバシーマークは、一定の要件を満たした事業者などの団体に対し、一般財団法人日本情報経済社会推進協会（JIDEC）が使用を許諾する登録商標です。
                   個人情報を適切に取り扱っていると評価された事業者だけが使用できます。
                 </p>

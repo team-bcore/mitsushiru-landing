@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Navbar from "components/Navbar";
-import Top from "components/usecase3/Top";
+import Top2 from "components/usecase3/Top2";
 import Intro from "components/usecase3/Intro";
 import Cameras from "components/usecase3/Cameras";
 import Leaflet from "components/usecase3/Leaflet";
@@ -54,7 +54,7 @@ export default function Usecase3() {
       </Head>
       <div className="">
         <Navbar />
-        <Top />
+        <Top2 />
         <Intro />
         <Cameras />
         <Leaflet />
