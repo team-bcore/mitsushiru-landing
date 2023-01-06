@@ -4,7 +4,7 @@ export default function Intro() {
   return (  
       <div className="px-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6">
         <div className="md:px-3 lg:col-start-2 lg:col-end-4 2xl:pt-24">
-          <p className="font-noto text-2xl font-bold text-gray-900 md:text-4xl ">
+          <p className="pt-8 font-noto text-2xl font-bold text-gray-900 md:text-4xl ">
             混雑しやすい場所に行く前に、簡単に密を確認できます
           </p>
           <p className="font-ud text-base pt-8 pb-8 leading-relaxed text-gray-800">
