@@ -48,7 +48,7 @@ export default function Price_2() {
                     </div>
                     <div className="text-center">
                         <div className="flex items-center justify-center mt-2">
-                            <div className="mr-1 text-5xl font-bold">¥10000</div>
+                            <div className="mr-1 text-5xl font-bold">¥10,000</div>
                             <p className="font-ud text-lg text-gray-700">/ 月</p>
                         </div>
                         <div className="mt-6 space-y-3">
@@ -75,7 +75,7 @@ export default function Price_2() {
                     <div className="text-center">
 
                         <div className="flex items-center justify-center mt-2">
-                            <div className="mr-1 text-5xl font-bold">¥20000</div>
+                            <div className="mr-1 text-5xl font-bold">¥20,000</div>
                             <p className="font-ud text-lg text-gray-700">/ 月</p>
                         </div>
                         <div className="mt-6 space-y-3">
