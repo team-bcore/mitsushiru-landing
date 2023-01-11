@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Navbar from "components/Navbar";
-import Top from "components/usecase2/Top";
+import Top2 from "components/usecase2/Top2";
 import Intro from "components/usecase2/Intro";
 import Cameras from "components/usecase2/Cameras";
 import Howitworks from "components/usecase2/Howitworks";
@@ -53,7 +53,7 @@ export default function Usecase2() {
       </Head>
       <div className="">
         <Navbar />
-        <Top />
+        <Top2 />
         <Intro />
         <Cameras />
         <Howitworks />

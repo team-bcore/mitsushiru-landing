@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
           <div className="sm:col-span-2">
             <a
-              href="https://www.colorbit.jp/"
+              href="https://www.bcore.biz"
               aria-label="Go home"
               title="Company"
               className="inline-flex items-center"
@@ -23,33 +23,33 @@ export default function Footer() {
               </span>
             </a>
             <div className="mt-6 lg:max-w-sm">
-              <p className="text-sm text-gray-800">
-                現場のニッチな課題を、IoTとDXで解決します。
+              <p className="font-ud text-sm text-gray-800">
+              現場のニッチなお悩みをIoTの力で解決します
               </p>
               <p className="mt-4 text-sm text-gray-800"></p>
             </div>
           </div>
           <div className="space-y-2 text-sm">
-            <p className="text-base font-bold tracking-wide text-gray-900">
-              Contacts
+            <p className="text-base font-ud tracking-wide text-gray-900">
+              Contact
             </p>
             <div className="flex">
-              <p className="mr-1 text-gray-800">Address:</p>
+              <p className="mr-1 font-ud text-gray-800">Address:</p>
               <a
                 href="https://goo.gl/maps/XZ8eixUZXnQVwBM77"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Our address"
                 title="Our address"
-                className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                className="font-ud transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
                 東京都千代田区西神田2-5-6<br></br>中西ビル7F
               </a>
             </div>
           </div>
           <div>
-            <span className="text-base font-bold tracking-wide text-gray-900">
-              Social
+            <span className="text-base font-ud tracking-wide text-gray-900">
+              Social Media
             </span>
             <div className="flex items-center mt-1 space-x-3">
               <a
@@ -81,7 +81,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
-          <p className="text-sm text-gray-600">
+          <p className="font-ud text-sm text-gray-600">
             © Copyright B-CORE Inc. All rights reserved.
           </p>
         </div>

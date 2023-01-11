@@ -8,20 +8,20 @@ export default function Testimonials() {
         "
     >
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <p className="mb-2 text-xs font-semibold tracking-wide text-gray-600 uppercase sm:text-center ">
+        <p className="mb-2 text-base font-ud tracking-wide text-gray-600 uppercase sm:text-center ">
           お客様の声
         </p>
         <div className="max-w-xl mb-5 md:mx-auto sm:text-center lg:max-w-2xl">
           <div className="mb-4">
-            <a className="inline-block max-w-lg font-sans text-3xl font-extrabold leading-none tracking-tight text-black transition-colors duration-200 hover:text-deep-purple-accent-700 sm:text-4xl">
+            <a className="inline-block max-w-lg font-ud text-3xl font-extrabold leading-none tracking-tight text-black transition-colors duration-200 hover:text-deep-purple-accent-700 sm:text-4xl">
               患者様に安心していただける<br></br>空間を提供したい
             </a>
           </div>
-          <p className="text-base text-gray-700 md:text-lg">
-          ミツシルの導⼊により、患者様は待合室のリアルな混雑度をスマホで知ることが出来るので、密を避けてより安⼼して受診できるようになることを期待しています。
+          <p className="font-ud text-base text-gray-700 md:text-lg">
+          ミツシルの導入により、患者様は待合室のリアルな混雑度をスマホで知ることが出来るので、密を避けてより安心して受診できるようになることを期待しています。
           </p>
         </div>
-        <div className="mb-10 sm:text-center">
+        <div className="mb-10 font-ud sm:text-center">
         <Link href="/usecase_1">
           <a className="inline-block mb-1">
             <Image
@@ -44,7 +44,7 @@ export default function Testimonials() {
         </div>
         <div className="sm:text-center">
           <Link href="/usecase_1">
-            <a className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-lime-500">
+            <a className="font-udinline-flex items-center transition-colors duration-200 text-deep-purple-accent-400 hover:text-lime-500">
               Read more
             </a>
           </Link>

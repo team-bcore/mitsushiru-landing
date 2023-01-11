@@ -7,12 +7,12 @@ export default function Ask() {
         <div className="lg:pr-10">
           <div className="flex items-center justify-center w-12 h-12 rounded-full bg-primary"></div>
 
-          <h5 className="mb-4 text-4xl font-extrabold leading-none">
-            密 ミツシルをもっと知りたい方へ
+          <h5 className="mb-4 text-4xl font-noto leading-none">
+            ミツシルをもっと知りたい方へ
             <br className="hidden md:block" />{" "}
             <span className="inline-block text-deep-purple-accent-400"></span>
           </h5>
-          <p className="mb-6 text-gray-900">
+          <p className="font-ud mb-6 text-gray-700">
             ご不明な点はお気軽にお問い合わせください。さらに詳しくご説明いたします。
           </p>
           <hr className="mb-5 border-gray-300" />

@@ -6,20 +6,20 @@ export default function CommentEW() {
       <div className="grid gap-10 lg:grid-cols-2">
         <div className="lg:pr-10">
           <div>
-            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-primary">
+            <p className="inline-block px-3 py-px mb-4 text-base font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-primary">
               お客様の声
             </p>
           </div>
-          <p className="mb-3 text-slate-500">導⼊を先導頂いたキーパーソンにコメントを頂きました。</p>
+          <p className="font-ud mb-3 text-gray-700">導入を先導頂いたキーパーソンにコメントを頂きました。</p>
           
             <br></br>
-            <p className="mb-3 font-extrabold text-gray-800">パナソニック株式会社</p>
-            <h5 className="text-gray-800 mb-3 text-2xl font-extrabold leading-none sm:text-3xl">
+            <p className="mmb-3 font-noto text-gray-800">パナソニック株式会社</p>
+            <h5 className="font-noto text-gray-800 mb-3 text-2xl font-extrabold leading-none sm:text-3xl">
             Vieureka チーム 岡部様
           </h5>
           <hr className="mb-4 border-gray-300" />        
-            <p className="text-gray-700">
-            EW社においては、従来の「来客分析サービス」だけでは、オフィスの改修効果の測定が困難でした。ミツシルとの併⽤により、改修効果を正確に測定可能になることを期待しています。
+            <p className="font-ud text-gray-700">
+            EW社においては、従来の「来客分析サービス」だけでは、オフィスの改修効果の測定が困難でした。ミツシルとの併用により、改修効果を正確に測定可能になることを期待しています。
             </p>
            
         </div>

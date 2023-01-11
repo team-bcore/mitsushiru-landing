@@ -15,9 +15,8 @@ const Item = ({ title, children }) => {
         <p className="text-lg font-medium">{title}</p>
         <svg
           viewBox="0 0 24 24"
-          className={`w-3 text-gray-600 transform transition-transform duration-200 ${
-            isOpen ? "rotate-180" : ""
-          }`}
+          className={`w-3 text-gray-600 transform transition-transform duration-200 ${isOpen ? "rotate-180" : ""
+            }`}
         >
           <polyline
             fill="none"
@@ -45,7 +44,7 @@ export default function Faq() {
       <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <div>
-            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+            <p className="font-ud inline-block px-3 py-px mb-4 text-base font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
               密集度モニターシステム　密 ミツシルの導入に関する
             </p>
           </div>
@@ -77,11 +76,11 @@ export default function Faq() {
             </span>{" "}
             よくあるご質問
           </h2>
-          <p className="text-base text-gray-700 md:text-lg ">
+          <p className="font-ud text-base text-gray-700 md:text-lg ">
             ミツシルについて、お客様からよくいただくご質問とご回答をまとめております。
           </p>
         </div>
-        <div className="space-y-4">
+        <div className="font-ud space-y-4">
           <Item title="出入口が複数ある場合でも、導入できますか？">
             可能です。室内の人数をシンプルに表示できます。オプションで各扉（カメラ）ごとの入退室履歴をCSV形式でダウンロードも可能です。
           </Item>

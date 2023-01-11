@@ -4,8 +4,8 @@ export default function Features() {
   return (
     <div className="bg-secondary pt-20 pb-16">
       <div className="">
-        <p className="text-3xl text-center font-bold text-gray-900 md:text-4xl ">
-          🟨 ミツシルの3つの特徴
+        <p className="text-3xl text-center font-noto text-gray-900 md:text-4xl ">
+          ミツシルの3つの特徴
         </p>
       </div>
       <div className="pt-6 grid grid-cols-1 md:grid-cols-11 gap-6">
@@ -17,7 +17,7 @@ export default function Features() {
               width={80} // Desired size with correct aspect ratio
               alt="NO1"
             />
-            <h5 className="p-1 text-center text-2xl font-semibold text-gray-900 mb-2 md:text-lg">
+            <h5 className="p-1 text-center text-2xl font-noto text-gray-900 mb-2 md:text-2xl">
               シンプルな仕組み
             </h5>
             <Image
@@ -26,9 +26,8 @@ export default function Features() {
               width={395} // Desired size with correct aspect ratio
               alt="QRコードを読み取るだけで混雑度を確認できます"
             />
-
             <div className="">
-              <p className="mb-4 text-left text-gray-700">
+              <p className="pt-4 px-6 font-ud mb-4 text-left text-gray-700">
                 施設利用者は、QRコード読み取りやURLから混雑情報へアクセスします。
                 <br></br>
                 スマートフォンや端末のブラウザでリアルタイムの混雑度を簡単に知ることができます。
@@ -44,7 +43,7 @@ export default function Features() {
               width={80} // Desired size with correct aspect ratio
               alt="NO2"
             />
-            <h5 className="p-1 text-center text-2xl font-semibold mb-2 text-gray-900 md:text-lg">
+            <h5 className="p-1 text-center text-2xl font-semibold mb-2 text-gray-900 md:text-2xl">
               低コスト
             </h5>
             <Image
@@ -53,9 +52,8 @@ export default function Features() {
               width={395} // Desired size with correct aspect ratio
               alt="料金プラン"
             />
-
             <div className="">
-              <p className="mb-4 text-left text-gray-700">
+              <p className="pt-4 px-6 font-ud mb-4 text-left text-gray-700">
                 月額1万円からサービスを利用できるので、コストを抑えながら、お客様に安心して施設を利用していただけます。
                 <br></br>
                 カメラは、購入かレンタルをお選びいただけます。
@@ -71,7 +69,7 @@ export default function Features() {
               width={80} // Desired size with correct aspect ratio
               alt="NO3"
             />
-            <h5 className="p-1 text-center text-2xl font-semibold mb-2 text-gray-900 md:text-lg">
+            <h5 className="p-1 text-center text-2xl font-semibold mb-2 text-gray-900 md:text-2xl">
               プライバシー保護
             </h5>
             <Image
@@ -82,7 +80,7 @@ export default function Features() {
             />
 
             <div className="">
-              <p className="mb-4 text-left text-gray-700">
+              <p className="pt-4 px-6 font-ud mb-4 text-left text-gray-700">
                 IoTカメラ内で画像処理され、データのみが外部出力されます。
                 画像はカメラ内で破棄され、残ることはありません。<br></br>
                 そのため、施設内のお客様のプライバシーが守られます。

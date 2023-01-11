@@ -6,7 +6,7 @@ export default function Ui() {
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="grid gap-10 lg:grid-cols-2">
           <div className="lg:pr-10">
-            <h5 className="mb-4 text-4xl font-extrabold leading-none text-gray-800">
+            <h5 className="font-noto mb-4 text-4xl font-extrabold leading-none text-gray-800">
               スマートフォンで
               <br className="hidden md:block" />
               誰でも{" "}
@@ -15,7 +15,7 @@ export default function Ui() {
               </span>
             </h5>
             <hr className="mt-5 border-gray-300" />
-            <p className="pt-8 mb-6 text-gray-700">
+            <p className="font-ud pt-8 mb-6 text-gray-700">
               スマートフォンや端末のブラウザでリアルタイムの混雑度を簡単に知ることができます。
               <br></br>
               来院前に混雑状況を知っているのと知らないのでは、

@@ -1,18 +1,21 @@
 import Link from "next/link";
 import Head from "next/head";
 import Navbar from "components/Navbar";
-import Merit from "components/Merit";
-import Recommend from "components/Recommend";
+import Merit_new from "components/Merit_new";
+import Recommend_2 from "components/Recommend_2";
 import Features from "components/Features";
 import Steps from "components/Steps";
 import Support from "components/Support";
 import Faq from "components/Faq";
-import Price from "components/Price";
+import Price_2 from "components/Price_2";
 import Ask from "components/Ask";
 import Footer from "components/Footer";
 import Hero2 from "components/Hero2";
+import Intro from "components/Intro";
 import Contact from "components/Contact";
-import Testimonials1 from "components/Testimonials1";
+import Testimonials_2 from "components/Testimonials_2"
+import Howitworks from "components/usecase3/Howitworks";
+
 import { NextSeo } from "next-seo";
 
 export default function Home() {
@@ -57,14 +60,16 @@ export default function Home() {
       <div className="">
         <Navbar />
         <Hero2 />
-        <Merit />
-        <Recommend />
+        <Intro />
+        <Merit_new />
+        <Recommend_2 />
+        <Howitworks />
         <Features />
-        <Price />
+        <Testimonials_2 />
         <Steps />
         <Support />
-        <Testimonials1 />
         <Faq />
+        <Price_2 />
         <Contact />
         <Ask />
         <Footer />
