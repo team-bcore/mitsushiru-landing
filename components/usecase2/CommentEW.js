@@ -10,28 +10,30 @@ export default function CommentEW() {
               お客様の声
             </p>
           </div>
-          <p className="font-ud mb-3 text-gray-700">導入を先導頂いたキーパーソンにコメントを頂きました。</p>
+          <p className="font-ud mb-3 text-gray-700">
+            導入を先導頂いたキーパーソンにコメントを頂きました。
+          </p>
           
-            <br></br>
-            <p className="mmb-3 font-noto text-gray-800">パナソニック株式会社</p>
-            <h5 className="font-noto text-gray-800 mb-3 text-2xl font-extrabold leading-none sm:text-3xl">
+          <br />
+          <p className="mb-3 font-noto text-gray-800">パナソニック株式会社</p>
+          <h5 className="font-noto text-gray-800 mb-3 text-2xl font-extrabold leading-none sm:text-3xl">
             Vieureka チーム 岡部様
           </h5>
           <hr className="mb-4 border-gray-300" />        
-            <p className="font-ud text-gray-700">
+          <p className="font-ud text-gray-700">
             EW社においては、従来の「来客分析サービス」だけでは、オフィスの改修効果の測定が困難でした。ミツシルとの併用により、改修効果を正確に測定可能になることを期待しています。
-            </p>
-           
+          </p>
         </div>
-        <div className="pt-8 drop-shadow-lg">
+
+        <div className="relative w-full min-h-[300px] sm:min-h-[384px] drop-shadow-lg">
           <Image
-            className="rounded shadow-lg sm:h-96 xl:h-24"
-            src="/images/Usecase2/Okabe.png" // Route of the image file
-            height={2304} // Desired size with correct aspect ratio
-            width={3507} // Desired size with correct aspect ratio
+            className="rounded shadow-lg object-cover"
+            src="/images/Usecase2/Okabe.png"
             alt="導入されたお客様"
+            fill
+            sizes="(max-width: 768px) 100vw, 50vw"
+            priority
           />
-          
         </div>
       </div>
     </div>
