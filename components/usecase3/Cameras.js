@@ -14,44 +14,39 @@ export default function Cameras() {
           </h2>
         </div>
         <p className="text-lg font-ud w-full text-gray-700 lg:max-w-md">
-        各大浴場の出入口2ヶ所にエッジAIカメラを設置して、浴場内の混雑度の見える化を実施しました。
+          各大浴場の出入口2ヶ所にエッジAIカメラを設置して、浴場内の混雑度の見える化を実施しました。
         </p>
       </div>
       <div className="grid gap-8 row-gap-5 mb-8 lg:grid-cols-3 lg:row-gap-8">
-        <div>
-          <Image
-            className="rounded shadow-xl"
-            src="/images/Usecase3/Male-bath-camera.jpg" // Route of the image file
-            height={3024} // Desired size with correct aspect ratio
-            width={4032} // Desired size with correct aspect ratio
-            alt="男性浴場前カメラ"
-          />
-          <p className="mb-2 text-xl font-bold leading-none sm:text-2xl"></p>
-          <p className="font-ud text-gray-700">男性浴場のカメラ設置状況</p>
-        </div>
-        <div>
-          <Image
-            className="rounded shadow-xl"
-            src="/images/Usecase3/center-camera.jpg" // Route of the image file
-            height={3024} // Desired size with correct aspect ratio
-            width={4032} // Desired size with correct aspect ratio
-            alt="エッジAIカメラ「ビューレカ」"
-          />
-          <p className="mb-2 text-xl font-bold leading-none sm:text-2xl"></p>
-          <p className="font-ud text-gray-700">エッジAIカメラ「ビューレカ」</p>
-        </div>
-        <div>
-          <Image
-            className="rounded shadow-xl"
-            src="/images/Usecase3/female-bath-camera.jpg" // Route of the image file
-            height={3024} // Desired size with correct aspect ratio
-            width={4032} // Desired size with correct aspect ratio
-            alt="女性浴場のカメラ設置状況"
-          />
-          <p className="mb-2 text-xl font-bold leading-none sm:text-2xl"></p>
-          <p className="font-ud text-gray-700">女性浴場のカメラ設置状況</p>
-        </div>
-       
+        {[
+          {
+            src: "/images/Usecase3/Male-bath-camera.jpg",
+            alt: "男性浴場前カメラ",
+            caption: "男性浴場のカメラ設置状況"
+          },
+          {
+            src: "/images/Usecase3/center-camera.jpg",
+            alt: "エッジAIカメラ「ビューレカ」",
+            caption: "エッジAIカメラ「ビューレカ」"
+          },
+          {
+            src: "/images/Usecase3/female-bath-camera.jpg",
+            alt: "女性浴場のカメラ設置状況",
+            caption: "女性浴場のカメラ設置状況"
+          }
+        ].map((image, index) => (
+          <div key={index} className="flex flex-col">
+            <div className="relative w-full h-0 pb-[75%]"> {/* 4:3のアスペクト比を設定 */}
+              <Image
+                className="rounded shadow-xl absolute object-cover"
+                src={image.src}
+                fill
+                alt={image.alt}
+              />
+            </div>
+            <p className="mt-4 font-ud text-gray-700">{image.caption}</p>
+          </div>
+        ))}
       </div>
     </div>
   );
